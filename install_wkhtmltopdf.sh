@@ -2,7 +2,7 @@ WKHTMLTOX_X64=https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.
 WKHTMLTOX_X32=https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.trusty_i386.deb
 
 sudo apt-get install wget git python-pip gdebi -y
-
+#testing
 if [ "`getconf LONG_BIT`" == "64" ];then
   _url=$WKHTMLTOX_X64
 else
